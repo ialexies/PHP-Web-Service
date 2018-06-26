@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 26, 2018 at 12:45 AM
+-- Generation Time: Jun 26, 2018 at 02:42 AM
 -- Server version: 10.1.31-MariaDB
 -- PHP Version: 7.2.4
 
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `groundgurus`
+-- Database: `sample_web_service`
 --
 
 -- --------------------------------------------------------
@@ -40,31 +40,8 @@ CREATE TABLE `students` (
 --
 
 INSERT INTO `students` (`id`, `name`, `location`, `course`) VALUES
-(2, 'testup23333', 'manila333', 'testup23333'),
-(3, 'Elvs', 'Metro Manila ', 'bsit'),
-(5, 'fdfd', 'fdf', 'fdfdf'),
-(6, 'fdfd', 'fdf', 'fdfdf'),
-(7, 'fdfd', 'fdf', 'fdfdf'),
-(8, 'momol', 'fasbasf', 'lol'),
-(9, 'fdfd', 'fdf', 'fdf'),
-(10, 'fdfd', 'fdfdf', 'fdfd'),
-(11, 'fdfd', 'fdfdf', 'fdfd'),
-(12, 'fdfd', 'fdfdf', 'fdfd'),
-(13, 'fdfd', 'fdfdf', 'fdfd'),
-(14, 'fdfd', 'fdfdf', 'fdfd'),
-(15, 'fdfd', 'fdfdf', 'fdfd'),
-(16, 'fdfd', 'fdfdf', 'fdfd'),
-(17, 'fdfd', 'fdfdf', 'fdfd'),
-(18, 'fdfd', 'fdfdf', 'fdfd'),
-(19, 'fdfd', 'fdfdf', 'fdfd'),
-(20, 'fdfd', 'fdfdf', 'fdfd'),
-(21, 'fdfd', 'fdfdf', 'fdfd'),
-(22, 'fdfd', 'fdfdf', 'fdfd'),
-(23, 'fdfd', 'fdfdf', 'fdfd'),
-(24, 'fdfd', 'fdfdf', 'fdfd'),
-(25, 'Alexies blah', 'manila', 'nursing '),
-(26, 'fdf', '', 'fdfd'),
-(27, '', '', '');
+(28, 'alexies', 'Philippines', 'BSIT'),
+(29, 'test1', 'fasf', 'fsajfl;djksf');
 
 --
 -- Indexes for dumped tables
@@ -84,7 +61,7 @@ ALTER TABLE `students`
 -- AUTO_INCREMENT for table `students`
 --
 ALTER TABLE `students`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
