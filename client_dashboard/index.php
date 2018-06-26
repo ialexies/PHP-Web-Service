@@ -14,8 +14,11 @@
   <?php include "dbconnect.php"; ?>
   
   <div class="container">
+  <div class="mt-3  jumbotron">
+    <h1>Insert Data</h1>
+  </div>
   <form class="mt-4 pt-4" action="http://localhost/apps/git_repositories/PHP-Web-Service/" method="POST">
-    <input type="text" name="tag" value="addstudent">
+    <input type="text" name="tag" hidden value="addstudent">
     <div class="form-group">
       <label for="">Name</label>
       <input type="text" class="form-control" name="name" placeholder="name">
@@ -31,7 +34,7 @@
       <input type="text" class="form-control" name="course" placeholder="course">
     </div>
     
-    <button class="btn btn-defualt" type="submit">Submit</button>
+    <button class="btn btn-defualt" type="submit">Add Data</button>
 
       
   </form>
