@@ -8,7 +8,7 @@ try{
     $db=new PDO
     (
         "mysql:host=localhost;
-        dbname=groundgurus", 
+        dbname=sample_web_service", 
         $dbuser,
         $dbpass
     );
